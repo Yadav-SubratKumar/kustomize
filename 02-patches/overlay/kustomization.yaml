@@ -7,9 +7,6 @@ resources:
 patches:
   - path: add-label.yaml
     target:
-      group: apps
-      version: v1
-      kind: Deployment
       name: web-app
 
   - path: increase-memory.yaml

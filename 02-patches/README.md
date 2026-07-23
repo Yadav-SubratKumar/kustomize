@@ -6,6 +6,7 @@
 .
 ├── base/                  # Original configuration
 │   └── deployment.yaml    # Basic deployment with resource limits
+|   └── kustomization.yaml     # Tracks resources to be patched
 └── overlay/              # Your modifications
     ├── increase-memory.yaml    # Strategic merge patch
     ├── add-label.yaml         # JSON patch
